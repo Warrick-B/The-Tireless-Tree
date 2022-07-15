@@ -1,0 +1,365 @@
+/* removes all default margins and paddings*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Belleza', sans-serif; /* global font for whole website*/
+}
+
+/*body styling*/
+body{
+  background: black;
+}
+
+/*main area for elements*/
+.container{
+    display: block;
+    margin: 0 auto;
+    width: 1020px;
+    height: 1020px;      
+}
+
+.container_white{
+    display: block;
+    margin: 0 auto;
+    width: 1020px;
+    height: 1350px;
+    background: white;
+}
+
+/*parent box div*/
+.box{
+    display: block;
+    position: relative;
+}
+
+/*empty space*/
+.spacer {  
+    margin-top: 700px; 
+}
+
+
+/*index page*/
+
+#title_heading{
+	top: 360px;
+    left: 55px;
+    font-size: 32px;
+    color: white;
+	width: 450px;
+    height: 75px;
+}
+
+#begin_button{
+    top: 365px;
+    left: 120px;
+	width: 302px;
+    height: 62px;
+    outline: black; 
+	background: url(../buttons/begin.png)
+}
+
+#begin_button:hover{   
+    opacity: 90%;  
+}
+
+#lightning_gif{
+   bottom: 147px; 
+   left: 281px;
+   width: 800px;
+   height: 1030px;
+   z-index: -1;
+   background: url(../gifs/lightning_strike.gif);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+
+/*suffering page*/
+
+#suffering_heading{
+	top: 40px;
+    left: 400px;
+    display: block;
+    position: relative;
+    font-size: 32px;
+    color: white;
+}
+
+#suffering_quote{
+	bottom: 20px;
+    right: 12px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+#burning_tree {
+    top: 140px;
+    left: 290px;
+    height: 620px;
+    width: 450px;
+    background: url(../gifs/burning_tree.gif);
+    background-repeat: no-repeat;
+}
+
+#smoke_gif_1 {
+    bottom: 510px;
+	width: 350px;
+    height: 450px;
+	background: url(../gifs/smoke.gif);
+	background-repeat: no-repeat;
+	background-size: fill;
+    background-repeat: no-repeat;
+    z-index: -1;    
+}
+
+#smoke_gif_2 {
+	bottom: 960px;
+    left: 670px;
+    width: 350px;
+    height: 450px;
+	background: url(../gifs/smoke.gif);
+	background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#suffering_scroll_icon {
+    left: 920px;
+    bottom: 830px;
+	width: 62px;
+	height: 105px;
+    z-index: 1;
+}
+
+#suffering_scroll_icon:hover {
+	opacity: 80%;  
+	cursor: pointer;   
+}
+
+#back_button{
+    bottom: 34px;
+    left: 40px;
+	width: 60px;
+	height: 82px;
+}
+
+#back_button:hover{
+    opacity: 80%;  
+	cursor: pointer;
+}
+
+#button_and_icon_text_white {
+    left: 2px;
+    color: white;
+	width: 60px;
+	height: 40px;
+	text-align: center;
+}
+
+#button_and_icon_text_black {
+    left: 13px;
+	color: black;  
+}
+
+
+/*resilience page*/
+
+#resilience_heading{
+    top: 40px;
+    left: 400px;
+    display: block;
+    position: relative;
+    font-size: 32px;
+    color: white;   
+}
+
+#resilience_scroll_icon{
+   top: 90px;
+   left: 920px;
+   width: 62px;
+   height: 105px;
+}
+
+#resilience_scroll_icon:hover{
+    opacity: 80%;  
+    cursor: pointer;
+}
+
+#resilience_quote{
+	bottom: 20px;
+    right: 15px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+#burnt_tree{
+	top: 170px;
+    left: 45px;
+    display: block;
+    margin: 0 auto;
+    width: 610px;
+    height: 600px;
+    background: url(../rollovers/burnt_tree.png);
+    background-repeat: no-repeat;
+}
+
+#burnt_tree:hover{
+    background: url(../rollovers/new_growth.png);
+    background-repeat: no-repeat;
+}
+
+
+#hover_icon_white{
+	bottom: 300px;
+	left:600px;
+	width: 120px;
+	height: 60px;
+	background: url(../icons/hover_white.png);
+    background-repeat: no-repeat;
+}
+
+
+/*hope page*/
+
+.hope_section{
+    background: white;
+}
+
+#hope_heading{
+	top: 40px;
+    left: 450px;
+    display: block;
+    position: relative;
+    font-size: 32px;
+    color: black;
+}
+
+#hope_quote{
+    font-size: 28px;
+    color: black;
+    bottom: 20px;
+    text-align: center;
+}
+
+#hope_tree{
+	top: 100px;
+    right: 250px;
+    display: block;
+    margin: 0 auto;
+    height: 650px;
+    width: 600px; 
+    background: url(../rollovers/healed_tree.png);
+    background-repeat: no-repeat;
+}
+
+#hope_tree:hover{
+    background: url(../rollovers/tree_regrown.png);
+    background-repeat: no-repeat;
+}
+
+#small_tree_1 {
+	bottom: 405px;
+    left: 570px;
+	width: 220px;
+	height: 480px;
+	background: url(../images/small_tree_1.png);
+    background-repeat: no-repeat;
+}
+
+#small_tree_2 {
+	bottom: 862px;
+    left: 800px;
+	width: 220px;
+	height: 480px;
+	background: url(../images/small_tree_2.png);
+    background-repeat: no-repeat;
+}
+
+#hover_icon_black{
+	bottom: 1120px;
+	left: 350px;
+	width: 120px;
+	height: 60px;
+	background: url(../icons/hover_black.png);
+    background-repeat: no-repeat;
+}
+
+
+
+/*sun,cloud and rays */
+
+.sun{
+    position: absolute;
+    top: -5px;
+    left: 680px;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    background: #FFFF8F;
+    border-radius: 100%;
+    box-shadow: 0 0 50px rgb(255, 234, 0);
+    z-index: 1;  
+}
+
+.cloud /* base of the cloud */{
+    position: relative;
+    top: 150px;
+    left: 650px;
+    width: 300px;
+    height: 90px;
+    border-radius: 50px;
+    background: #f5f5f5;
+    animation: move 8s linear infinite;
+    z-index: 2;
+}
+
+.cloud:before /* left circle of cloud */{
+    content: '';
+    position: absolute;
+    top: -30px;
+    left:40px;
+    background: #f5f5f5;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+}
+
+.cloud:after /* right circle of cloud */{
+    content: '';
+    position: absolute;
+    top: -80px;
+    right:50px;
+    background: #f5f5f5;
+    width: 150px;
+    height: 150px;
+    border-radius:50%; 
+}
+
+@keyframes move  /* for cloud to move sideways */{
+    0%
+    {
+        transform: translate(0);
+    }
+     50%
+    {
+        transform: translate(70px); 
+    }
+     100%
+    {
+        transform: translate(0);
+    }
+}
+
+#sun_rays{
+	bottom: 1620px;
+	left: 460px;
+	background: url(../images/sun_rays.png);
+    background-repeat: no-repeat;
+	width: 170px;
+	height: 800px;
+	background-size: contain;
+	z-index: 1;	
+}
+

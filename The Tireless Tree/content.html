@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" /> <!-- telling browser to use UTF-8 character encoding -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css"> <!-- link to CSS -->
+
+    <!-- Google fonts Belleza links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+
+    <!-- Animate.css link used to animated headings -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--Link to main.js that has all javascript fucntions-->
+    <script src="./javscript/main.js"></script>
+
+
+    <!-- Title in the browsers tab -->
+    <title> The Tireless Tree </title>
+
+</head>
+
+<!--immeditaly play fire sound when page loads -->
+<body onload="play_fire_sound()">
+
+
+    <!--Load fire_sound audio-->
+    <audio src="sounds/fire_crackle.wav" id="fire_sound" loop="loop"></audio>
+
+    <!-- Suffering container start-->
+    <div class="container">
+
+        <!-- Suffering page Heading -->
+        <div class="animate__animated animate__fadeIn" id="suffering_heading">
+            <h1>Suffering</h1>
+        </div>
+
+        <!-- Suffering page back button -->
+        <div class="box" id="back_button">
+            <a href="index.html">
+                <img src="buttons/back_button_white.png">
+            </a>
+            <div class="box" id="button_and_icon_text_white">
+                <p><b>Back</b></p>
+            </div>
+        </div>
+
+        <!-- Suffering page quote -->
+        <div class="box" id="suffering_quote">
+            <h3>&#34Pain and suffering are the soil of strength and courage&#34 <br> &#8211 Lurlen McDaniel</h3>
+        </div>
+
+        <!-- Burning Tree Gif -->
+        <div class="box" id="burning_tree">
+        </div>
+
+        <!-- Smoke Gif right hand side -->
+        <div class="box" id="smoke_gif_1">
+        </div>
+
+        <!-- Smoke Gif left hand side -->
+        <div class="box" id="smoke_gif_2">
+        </div>
+
+
+        <!-- Suffering page scroll button -->
+        <div class="box" id="suffering_scroll_icon" onclick="suffering_page_scroll()">
+
+            <img src="icons/scroll_icon_white.png">
+
+            <div class="box" id="button_and_icon_text_white">
+                <p><b>Click to Scroll</b></p>
+            </div>
+        </div>
+
+    </div>
+    <!-- Suffering container end -->
+
+
+
+    <!-- Spacer to to allow scrolling space between containers -->
+    <div class="spacer"></div>
+
+
+
+    <!-- Resilience container start-->
+    <div class="container">
+
+        <!--Load tranquil_sound audio-->
+        <audio src="sounds/tranquil_sounds.wav" id="tranquil_sound" loop="loop"></audio>
+
+
+        <!-- Resilience page heading -->
+        <div id="resilience_heading">
+            <h1>Resilience</h1>
+        </div>
+
+        <!-- Resilience page back button -->
+        <div class="box" id="back_button" onclick="resilience_page_back()">
+            <img src="buttons/back_button_white.png">
+            <div class="box" id="button_and_icon_text_white">
+                <p><b>Back</b></p>
+            </div>
+        </div>
+
+        <!-- Resilience page quote -->
+        <div class="box" id="resilience_quote">
+            <h3>&#34Out of suffering have emerged the strongest souls; the<br>most massive character are seared with
+                scars&#34 &#8211 Kahlil Gibran </h3>
+        </div>
+
+
+        <!-- Brunt Tree rollover image -->
+        <a class="box" id="burnt_tree">
+        </a>
+
+        <!-- Resilience page scroll button -->
+        <div class="box" id="resilience_scroll_icon" onclick="resilience_page_scroll()">
+            <img src="icons/scroll_icon_white.png">
+            <div class="box" id="button_and_icon_text_white">
+                <p><b>Click to Scroll</b></p>
+            </div>
+        </div>
+
+        <!-- Resilience page Hover icon  -->
+        <div class="box" id="hover_icon_white">
+        </div>
+
+    </div>
+    <!-- Resilience container end-->
+
+
+    <!-- Spacer to to allow scrolling space between containers -->
+    <div class="spacer"></div>
+
+
+
+    <!-- section to make body white around hope container -->
+    <section class="hope_section">
+
+
+        <!-- Hope container start-->
+        <div class="container_white">
+
+
+            <!--Load bird_sounds audio-->
+            <audio src="sounds/bird_sounds.wav" id="bird_sounds" loop="loop"></audio>
+
+            <!--Hope page heading-->
+            <div id="hope_heading">
+                <h1>Hope</h1>
+            </div>
+
+            <!--Hope page back button-->
+            <div class="box" id="back_button" onclick="hope_page_back()">
+                <img src="buttons/back_button_black.png">
+                <div class="box" id="button_and_icon_text_black">
+                    <p><b>Back</b></p>
+                </div>
+            </div>
+
+            <!--Hope page quote-->
+            <div class="box" id="hope_quote">
+                <h3>&#34Although the world is full of suffering it is full also of the <br> overcoming of it&#34 &#8211
+                    Helen
+                    Keller </h3>
+            </div>
+
+
+            <!-- Sun and cloud CSS animation -->
+            <div class="box">
+                <div class="cloud">
+                </div>
+
+                <div class="sun">
+                </div>
+
+            </div>
+
+
+            <!-- Regrown tree rollover image -->
+            <a class="box" id="hope_tree"> </a>
+
+            <!-- Small tree 1 -->
+            <div class="box" id="small_tree_1">
+            </div>
+
+            <!-- Small tree 2 -->
+            <div class="box" id="small_tree_2">
+            </div>
+
+            <!-- Hover icon -->
+            <div class="box" id="hover_icon_black">
+            </div>
+
+            <!-- Sun rays image -->
+            <div class="box" id="sun_rays">
+            </div>
+
+        </div> 
+		<!-- Hope container end -->
+
+
+    </section>
+    <!-- Hope section end-->
+
+</body>
+
+</html>

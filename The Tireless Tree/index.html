@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" /> <!-- telling browser to use UTF-8 character encoding -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css"> <!-- link to CSS -->
+
+    <!-- Google fonts Belleza links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+
+    <!-- Animate.css link used to animate headings -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--Link to main.js that has all javascript fucntions-->
+    <script src="./javscript/main.js"></script>
+
+	<!-- Title in the browsers tab -->
+    <title> The Tireless Tree </title>
+
+</head>
+
+
+<!--immeditaly play thunder sound when page loads -->
+
+<body onload="play_thunder_sound()">
+
+    <audio src="sounds/thunder.wav" id="thunder_sound" loop="loop"></audio>
+
+    <!-- container start-->
+    <div class="container">
+
+        <!-- Title Text-->
+        <div class="box" id="title_heading">
+            <h1 class="animate__animated animate__shakeX">The Tireless Tree</h1>
+        </div>
+
+        <!-- Begin button-->
+        <a href="content.html" class="box" id="begin_button"></a>
+
+        <!-- lightning GIF-->
+        <div class="box" id="lightning_gif">
+        </div>
+
+    </div>
+    <!-- container end -->
+
+</body>
+
+</html>
